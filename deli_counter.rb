@@ -4,7 +4,7 @@ katz_deli = []
 # def take_a_number(katz_deli,name)
 #  puts "Welcome, ${name}. You are number #{katz_deli.index} in line."
 # end
-# 
+#
 # def line (katz_deli, name)
 #   katz_deli << name
 #   if katz_deli == []
@@ -18,7 +18,7 @@ def line(num)
     puts "The line is currently empty."
   else
     line_array.each.with_index(0) do |name, index|
-      line_method_array <<"#{index}. #{name}"
+      line_method_array << ("#{index}. #{name}")
     end
     puts "The line is: #{line_method_array.join(" ")}"
   end
