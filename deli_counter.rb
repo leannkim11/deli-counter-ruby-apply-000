@@ -17,10 +17,10 @@ def line(num)
   if num.length == 0
     puts "The line is currently empty."
   else
-    line_array.each.with_index(0) do |name, index|
+    line_array.each.with_index(1) do |name, index|
       line_array << ("#{index}. #{name}")
     end
-    puts "The line is: #{line_array}"
+    puts "The line is: #{line_array.join" "}"
   end
 end
 
