@@ -20,7 +20,7 @@ def line(num)
     line_array.each.with_index(0) do |name, index|
       line_array << ("#{index}. #{name}")
     end
-    puts "The line is: #{line_array.join(" ")}"
+    puts "The line is: #{line_array}"
   end
 end
 
